@@ -1,0 +1,9 @@
+### Create user details
+POST http://localhost:9000/api/v1/user 
+Content-Type: application/json
+
+{
+    "firstName": "Kaddy",
+    "lastName": "Sowe",
+    "email": "sowe@gmail.com"
+}
